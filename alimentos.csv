@@ -1,0 +1,391 @@
+save.image("C:/Users/PC/Downloads/estadistica grupo de taller.pdf.RData")
+load("C:/Users/PC/Downloads/estadistica grupo de taller.pdf.RData")
+dim(datos)
+q()
+"ingreso"
+ingreso<-c(120,210,122,300)
+ingreso
+ingreso/2
+min(ingreso)
+media<-(mean(ingreso))
+media
+varianza<-(var(ingreso))
+varianza
+desvt <-(sd(ingreso))
+desvt
+sum(ingreso)
+range(ingreso)
+max(ingreso)
+length(ingreso)
+"zapatos"
+zapatos<-c(36,42,42,33,36,36,36,36,37,37,40)
+zapatos
+zapatos/2
+media<-(mean(zapatos))
+media
+varianza<-(var(zapatos))
+varianza
+desvt <-(sd(zapatos))
+desvt
+length(zapatos)
+max(zapatos)
+sum(zapatos)
+range(zapatos)
+"CALIFICACION/10"
+CALIFICACION<-C(8.2 4.5 6.7 8.9 9 10)
+CALIFICACION<-C(6,7,8,9,5,10)
+"CALIFICACION/10"
+media<-(mean(CALIFICACION))
+6+6
+pi
+8+9
+y<-c(4,8,9,11)
+y
+sqtr(11)
+sqrt(16)
+6+6
+pi
+8+8
+y<-c(6,8,9,11)
+y
+sqrt(16)
+vec<-c("julia" "martin" "luis" "juan")
+8+8
+pi
+5+5
+y<-c(7,8,9,11)
+y
+sqrt(16)
+vec<-c("julia" "luis""jose)
+8+8
+pi
+y<-(8,9,11,12)
+8+8
+pi
+9+8
+x<-c(4,5,8,9,11)
+x
+sqrt(16)
+vec<-c("julia","jose","miguel")
+vec
+a<-4
+a
+radio<-3
+radio
+area_circulo<-pi*radio^2
+area_circulo
+radios<-c(4,8,9,5,7)
+radios
+sqrt(2)
+radios
+area_circulos<-radios^2*pi
+area_circulos
+peso<-c(80,66,77,88,95,95)
+peso
+altura<-c(1.80,1.96,1.45,1.66,1.9)
+altura
+imc<-peso/altura^2
+imc
+sum(peso)
+length(peso)
+xbar<-sum(peso/length(peso)
+mean(peso)
+mean(peso)
+imc<-peso/altura^2
+sum(peso)
+length(peso)
+xbar<-sum(peso/length(peso)
+xbar
+sum(peso)
+length(peso)
+xbar<-sum(peso/length(peso)
+sum(peso)
+varianza<-sum(peso-xbar)^2/length(peso)-1
+varianza
+dst<-sqrt(varianza)
+dst
+airquality
+head(airquality)
+datos<-airquality
+datos
+load("~/COMPUII.RData")
+16+55
+55+17
+PI
+meann(x)
+6+8
+pi
+x<-c(8,7,9,4,8)
+sqrt(18)
+vect<-c("jose" "lui" "jose" "julia")
+vect<-c("jose""lui""jose""julia")
+6+8
+pi
+7+7
+x<-c(8,7,9,4,8)
+sqrt(18)
+vect<-c("jose" ,"lui" ,"jose" ,"julia")
+a<-6
+a
+radio<-3
+radio
+area_circulo<-pi*radio^2
+area_circulo
+radios<-c(6,7,2,9,4,8)
+radios
+sqrt(2)
+radios
+area_circulos<-radios^2*pi
+area_circulos
+peso<-c(88,99,66,77,88)
+peso
+altura<-c(1.80,1.95,1.60,1.88,1.99)
+altura
+imc<-peso/altura^2
+imc
+sum(peso)
+length(peso)
+xbar<-sum(peso)/length(peso)
+xbar
+mean(peso)
+varianza<-sum(peso-xbar)^2/length(peso)-1)
+varianza
+dst<-sqrt(varianza)
+dst
+airquality
+head(airquality)
+datos
+view(datos)
+"view"(datos)
+plot(datos)
+plot
+hist(datos$ozone)
+datos$Ozone
+frequency
+histogram$Ozone
+musicos
+pianista+guitarrista
+99+88
+pi
+x<-c(4,5,6,7,8,9)
+sqrt(18)
+vect("juaquin","leida","eli","monse")
+Vec
+Vect
+altura<-c(1.65,1.80,1.50,1.55)
+edad<-c(16,18,30,20)
+imc<-altura/edad^2
+imc
+sum(edad)
+length(edad)
+xbar<-sum(edad)/length(edad)
+xbar
+hist(edad$ozone)
+hist(edad)
+Month.day<-c(27,28,18,19,22,31)
+Month.day
+nombres (month.days) <- month.name
+month.days
+nombres(month.days)
+Month.day<-c(27,28,18,19,22,31)
+Month.day
+nombres(month.days)<-month.name
+Month.day<-c(31,28,31,30,31,30,31)
+Month.day
+nombres (month.days) <- month.name
+dias<-c(15,18 21 30)
+dias<-c(15,18,2,1,30)
+dias
+imc<Month.day/dias
+days<-c(15,18,2,1,30)
+days
+imc<Month.day/days
+sum(days)
+length(days)
+xbar<-sum(days)/length(days)
+xbar
+mean(days)
+varianza<-sum((days-xbar)^2/length(days)-1)
+varianza
+dst<-sqrt(varianza)
+dst
+hist(days)
+hist
+hist(month.days)
+nombres(month.days)
+Month.day<-c(27,28,18,19,22,31)
+Month.day
+nombres(month.days)<-month.name
+imc<Month.day/days
+days<-c(15,18,2,1,30)
+days
+imc<Month.day/days
+sum(days)
+length(days)
+xbar<-sum(days)/length(days)
+xbar
+mean(days)
+varianza<-sum((days-xbar)^2/length(days)-1)
+varianza
+Month.day<-c(27,28,18,19,22,31)
+Month.day
+days<-c(15,18,2,1,30)
+days
+sum(days)
+length(days)
+xbar<-sum(days)/length(days)
+xbar
+mean(days)
+varianza<-sum((days-xbar)^2/length(days)-1)
+varianza
+dst<-sqrt(varianza)
+dst
+hist(days)
+hist
+alumnos<-c("juan","pepe","maria")
+length(alumnos)
+sum(alumnos)
+frutas<-c("manzana","fresa","kiwi")
+frutas
+frutas<-c("manzana","fresa","kiwi")
+frutas
+alumnos/frutas
+alumnos+frutas
+alumnos<-c(33,11,12,11)
+frutas<-c(33,11,10,12)
+length(alumnos)
+length(frutas)
+alumnos<-c(33,11,12,11)
+length(alumnos)
+sum(alumnos)
+frutas<-c(33,11,10,12)
+frutas
+length(frutas)
+xbar<-sum(alumnos)/length(alumnos)
+xbar
+hist(alumnos)
+hist
+hist
+#creo un vector de puntiacion de cada serie
+puntuacion<-c(1,2,11,5,12,7)
+#creo un vector de puntiacion de cada serie
+puntuacion<-c(1,2,11,5,12,7)
+#creo un vector de puntiacion de cada serie
+puntuacion<-c(1,2,11,5,12,7)
+#creo un vectorlogico sobre si la serie es posterior a 2018
+posterior_2018<-c(FALSE,TRUE,FALSE)
+#creo un vectorlogico sobre si la serie es posterior a 2018
+posterior_2018<-c(FALSE,TRUE,FALSE)
+#calcular la puntuacionde Monse
+puntuacion_Monse<-c(10,7,4,9,8)
+#calcular la puntuacionde Monse
+puntuacion_Monse<-c(10,7,4,9,8)
+#CALCULAR LA LONGITUD DEL VECTOR
+length(puntuacion)
+#CALCULAR LA LONGITUD DEL VECTOR
+length(puntuacion)
+#CALCULAR EL PROMEDIO DE VECTOR PUNTUACION
+mean(puntuacion)
+#CALCULAR EL PROMEDIO DE VECTOR PUNTUACION
+mean(puntuacion)
+m<-matrix(c(2,3,6,5),nrw=2,ncol=2)
+imc<-peso/altura^2
+pseo
+imc
+# Dataframes,
+mi_df <- data.frame("nombre" = c("Armando", "Elsa", "Ignacio", "Olga"),
+"edad" = c(20, 24, 22, 30),
+"sexo" = c("H", "M", "H", "H"),
+# Dataframes,
+mi_df <- data.frame("nombre" = c("Armando", "Elsa", "Ignacio", "Olga"),
+"edad" = c(20, 24, 22, 30),
+"sexo" = c("H", "M", "H", "H"),
+"grupo" = c(0, 1, 1, 0))
+# Dataframes,
+mi_df <- data.frame("nombre" = c("Armando", "Elsa", "Ignacio", "Olga"),
+"edad" = c(20, 24, 22, 30),
+"sexo" = c("H", "M", "H", "H"),
+"grupo" = c(0, 1, 1, 0))
+# Dataframes,
+mi_df <- data.frame("nombre" = c("Armando", "Elsa", "Ignacio", "Olga"),
+"edad" = c(20, 24, 22, 30),
+"sexo" = c("H", "M", "H", "H"),
+"grupo" = c(0, 1, 1, 0))
+dim(mi_df)
+dim(mi_df)
+## [1] 4 4
+mi_df[1]
+## 1 Armando
+## 1 Armando
+## 2    Elsa
+## 1 Armando
+## 2    Elsa
+## 3 Ignacio
+## 1 Armando
+## 2    Elsa
+## 3 Ignacio
+## 4    Olga
+##    nombre
+## 1 Armando
+## 2    Elsa
+## 3 Ignacio
+## 4    Olga
+mi_df[c(1, 3)]
+mi_df[c(1, 3)]
+mi_df[3,]
+download.file(
+url = "https://raw.githubusercontent.com/jboscomendoza/r-principiantes-bookdown/master/datos/bank.csv",
+destfile = "bank.csv"
+)
+#esto es en la consola
+readLines("bank.csv", n = 4)
+#Por la estructura de los datos, podremos usar la función read.csv(), con el argumento sep = ";" para importarlos como un data frame.
+#Por la estructura de los datos, podremos usar la función read.csv(), con el argumento sep = ";" para importarlos como un data frame.
+banco <- read.csv(file = "bank.csv", sep = ";")
+# Primeros datos
+head(banco)
+# Dimensiones
+dim(banco)
+# Usamos lapply() con la función class() para determinar el tipo de dato de cada columna en banco. Conocer esto nos será muy útil más adelante.
+> lapply(banco, class)
+# Usamos lapply() con la función class() para determinar el tipo de dato de cada columna en banco. Conocer esto nos será muy útil más adelante.
+> lapply(banco, class)
+matrix(1:12)
+matrix(1:12,nrow = 3,ncol = 4)
+matrix(1:12,nrow = 4,ncol = 3)
+matriz<-matrix(1:12,nrow=3, ncol=4)
+matriz
+View(matriz)
+calculo<-matriz*2
+View(matriz)
+View(matriz)
+View(matriz)
+View(matriz)
+View(matriz)
+calculo<-matriz*2
+calculo
+matriz_cuadrado<-matriz*matriz
+matriz_cuadrado
+plot(matriz_cuadrado)
+vec1
+vec1<-1:4
+vec1
+matriz_cuadrado
+plot(matriz_cuadrado)
+vec1
+vec1<-1:4
+vec1
+vec2<-(1:9)
+vec3<-(1:12)
+nbind(vec1,vec2,vec3)
+mat_vec<-rbind(vec1,vec2,vec3)
+$job
+# Usamos lapply() con la función class() para determinar el tipo de dato de cada columna en banco. Conocer esto nos será muy útil más adelante.
+# Usamos lapply() con la función class() para determinar el tipo de dato de cada columna en banco. Conocer esto nos será muy útil más adelante.
+lapply(banco, class)
+hist(x = banco$age, main = "Histograma de Edad", xlab = "Edad", ylab = "Frecuencia", col = "purple")
+hist(x = banco$age, main = "Histograma de Edad", xlab = "Edad", ylab = "Frecuencia", col = "blue")
+hist(x = banco$duration, main = "Histograma de Duration", xlab = "Duration", ylab = "Frecuencia", col = "ivory")
+hist(x = banco$duration, main = "Histograma de Duration", xlab = "Duration", ylab = "Frecuencia", col = "red")
+min = 1*x12+2*x13+1*x23+5*x24+2*x34+1*x36+3x45+6*x46+8*x47+3*x65+7*x57+5*x67+2*x68+6*x78;
+savehistory("C:/Users/PC/Downloads/alimentos.csv")
